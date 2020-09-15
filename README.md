@@ -8,7 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
     <a href="https://github.com/10kaoru12/sophia/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/github/last-commit/10kaoru12/sophia?style=plastic" />
+    <img alt="Maintenance" src="https://img.shields.io/github/last-commit/10kaoru12/sophia?style=flat" />
   </a>
   <a href="https://github.com/10kaoru12/sophia/blob/master/LICENSE" target="_blank">
     <img alt="License: BSD" src="https://img.shields.io/github/license/10kaoru12/sophia" />
