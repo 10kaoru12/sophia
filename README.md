@@ -16,14 +16,14 @@
   </a>
 </p>
 
-> This project uses tradingview and firebase cloud functions to perform fully automated virtual currency trading.
+> This project is a BOT that uses python to automate virtual currency transactions.
 
 ### 🏠 [Homepage](&#34;https://github.com/10kaoru12/sophia&#34;)
 
 ## Prerequisites
 
 - python3
-- postgreSQL
+- MongoDB
 - docker
 
 ## Install
