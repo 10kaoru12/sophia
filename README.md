@@ -25,7 +25,8 @@
 ## Prerequisites
 
 - python3
-- MongoDB
+    - pipenv
+    - influxDB
 - docker
 
 ## Install
