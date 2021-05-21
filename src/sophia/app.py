@@ -1,13 +1,10 @@
-import pandas as pd
-import prophet as Prophet
-
-print("Running https://facebook.github.io/prophet/docs/quick_start.html")
-
-df = pd.read_csv('example_wp_log_peyton_manning.csv')
-print(df.head())
-m = Prophet.Prophet()
-m.fit(df)
-future = m.make_future_dataframe(periods=365)
-future.tail()
-forecast = m.predict(future)
-print(forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail())
+import numpy as np
+import matplotlib.pyplot as plt
+ 
+# 乱数を生成
+x = np.random.rand(100)
+y = np.random.rand(100)
+ 
+# 散布図を描画
+plt.scatter(x, y)
+plt.show()
