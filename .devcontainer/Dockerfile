@@ -26,6 +26,7 @@ RUN pip install requests
 RUN pip install plotly
 RUN pip install notebook
 RUN pip install ipywidgets
+RUN pip install influxdb
 
 # [Optional] If your pip requirements rarely change, uncomment this section to add them to the image.
 # COPY requirements.txt /tmp/pip-tmp/
