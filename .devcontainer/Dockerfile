@@ -14,6 +14,7 @@ RUN apt-get -y update  && apt-get install -y \
   apt-utils \
   python-dev \
   build-essential \
+  sqlite3 \
 && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --upgrade setuptools
@@ -26,7 +27,6 @@ RUN pip install requests
 RUN pip install plotly
 RUN pip install notebook
 RUN pip install ipywidgets
-RUN pip install influxdb
 
 # [Optional] If your pip requirements rarely change, uncomment this section to add them to the image.
 # COPY requirements.txt /tmp/pip-tmp/
